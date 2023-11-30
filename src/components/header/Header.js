@@ -1,7 +1,6 @@
 import { Icon } from "@iconify/react";
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import LogoMain from "../../assets/logoMain.png";
 const Header = () => {
   const location = useLocation();
   const homeClass = location.pathname === "/" ? "headerActive" : "";
