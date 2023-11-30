@@ -32,10 +32,7 @@ const Footer = () => {
             </h4>
             <div className="flex items-start flex-col mt-8 lg:mt-16">
               <div className="explore text-[#fff] font-bold uppercase text-lg hover:text-[#fff] transition-all duration-300 ease-linear">
-                <Link
-                  to="/terms-conditions"
-                  className="hover:text-[rgba(8,126,164,1)] transition-all duration-300 ease-in-out"
-                >
+                <Link className="hover:text-[rgba(8,126,164,1)] transition-all duration-300 ease-in-out">
                   Terms & Condtions
                 </Link>
               </div>

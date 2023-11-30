@@ -19,9 +19,9 @@ const Header = () => {
       >
         <div className="logo-main w-1/2 flex flex-col justify-center">
           <img
-            src={LogoMain}
+            src="https://instantpics.s3.ap-south-1.amazonaws.com/myDreamzWorld/assets/logoMain.png"
             className="w-[130px] lg:w-[180px]"
-            alt="https://instantpics.s3.ap-south-1.amazonaws.com/wesbite/images/anmol+final+copy+reflect-1+1.png"
+            alt="https://instantpics.s3.ap-south-1.amazonaws.com/myDreamzWorld/assets/logoMain.png"
           />
         </div>
         <div
