@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+.headerActive {
+  border-bottom: 4px solid rgba(8, 126, 164, 1);
+}
