@@ -84,7 +84,8 @@ const Header = () => {
                 </li>
                 <li className="mb-10">
                   <Link
-                    to="/login"
+                    target="_blank"
+                    to="https://instantpics.in/login"
                     className={`text-2xl cursor-pointer uppercase hover:text-[rgba(8,126,164,1)] transition-all duration-300 ease-in-out text-[#000000] ${
                       loginClass ? loginClass : ""
                     }`}
